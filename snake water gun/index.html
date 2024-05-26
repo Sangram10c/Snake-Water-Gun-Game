@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Water Gun game using JS</title>
+    <!-- Linking external stylesheet for additional styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <!-- Computer section with a title and a button -->
+            <div class="left">
+                <h1>Computer</h1>
+                <button id="computerReply">Wait</button>
+            </div>
+
+            <!-- User section with a title and buttons for game options -->
+            <div class="right">
+                <h1>You</h1>
+                <div class="rightOption">
+                    <button id="snake">Snake</button>
+                    <button id="water">Water</button>
+                    <button id="gun">Gun</button>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+
+        <!-- Result section with a title and initial result message -->
+        <div class="result">
+            <h1>Result</h1>
+            <h2 id="result">Click on Snake/Water/Gun...</h2>
+        </div>
+
+        <hr />
+
+        <!-- Additional results section with total, win, and lose categories -->
+        <div class="result2">
+            <!-- Total games played with a counter -->
+            <div class="total">
+                <h3>Total</h3>
+                <p id="total">0</p>
+            </div>
+
+            <!-- Games won with a counter -->
+            <div class="win">
+                <h3>Win</h3>
+                <p id="win">0</p>
+            </div>
+
+            <!-- Games lost with a counter -->
+            <div class="lose">
+                <h3>Lose</h3>
+                <p id="lose">0</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+<!-- Linking external JavaScript file for game logic -->
+<script src="main1.js"></script>
+
+</html>
